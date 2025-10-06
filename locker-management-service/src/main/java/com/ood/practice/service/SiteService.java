@@ -6,7 +6,7 @@ import com.ood.practice.model.OrderPackage;
 
 import java.util.Date;
 
-public class SiteServiceImpl implements ISiteService {
+public class SiteService implements ISiteService {
 
     /**
      * @param lockerSize
@@ -14,6 +14,7 @@ public class SiteServiceImpl implements ISiteService {
      */
     @Override
     public Locker findAvailableLocker(LockerSize lockerSize) {
+
         return null;
     }
 
@@ -24,6 +25,7 @@ public class SiteServiceImpl implements ISiteService {
      */
     @Override
     public Locker placePackageInLocker(OrderPackage orderPackage, Date date) {
+
         return null;
     }
 }

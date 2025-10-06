@@ -5,7 +5,7 @@ import com.ood.practice.model.OrderPackage;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class LockerServiceImpl implements ILockerService{
+public class LockerService implements ILockerService{
     /**
      * @param orderPackage
      * @param assignmentDate
