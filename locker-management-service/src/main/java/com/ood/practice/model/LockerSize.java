@@ -1,7 +1,10 @@
 package com.ood.practice.model;
 
+import lombok.Getter;
+
 import java.math.BigDecimal;
 
+@Getter
 public enum LockerSize {
 
     SMALL("Small", new BigDecimal(5.00), new BigDecimal(10.00) , new BigDecimal(10.00), new BigDecimal(10.00)),
